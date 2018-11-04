@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html>
+	<head>
+    <title>Table</title>
+    <meta charset="UTF-8">
+
+    <style>
+        caption {
+            color: blue;
+            text-align: right;
+            background: yellow;
+            font-family: fantasy;
+            font-size: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+            /*
+                border-width: 15px;
+                border-color: green;
+                border-style: solid;
+*/
+            /*                border-collapse: separate;*/
+            /*                border-spacing: 10px;*/
+        }
+
+        td,
+        th {
+            border-bottom: 1px solid;
+            text-align: center;
+        }
+
+        td {
+            vertical-align: middle;
+            height: 50px;
+        }
+        
+        thead {
+            background: black;
+            color: white;
+        }
+        
+        tfoot {
+            background: blue;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table width="500">
+        <caption>Подарки на Новый Год</caption>
+        <colgroup span="2" style="background: gray;"/>
+        <col style="background: red;" />
+        <thead>
+            <tr height="50">
+                <th>#</th>
+                <th>Наименование</th>
+                <th>Цена</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>Елка</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Водка</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>Селедка</td>
+                <td rowspan="2">5</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>Соленые огурцы</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Итого</td>
+                <td>Много</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+    
+</html>
