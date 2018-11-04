@@ -1,0 +1,163 @@
+.Truck {
+    position: relative;
+    width: 912px;
+    height: 919px;
+    top: auto;
+    /*            right: auto;*/
+    left: auto;
+    border: 1px solid;
+    background-color: #dddddd;
+}
+
+.headerTruck {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    background-color: #ff6634;
+    background-image: url(images/header.jpg);
+    top: 5px;
+    left: 5px;
+    border: 1px solid #a4a5a5;
+
+}
+
+.he1 {
+    font-family: "Arial";
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-left: 560px;
+}
+
+p.lower {
+    font-family: Arial;
+    color: aliceblue;
+    font-size: 18px;
+    padding-left: 580px;
+    margin-top: -30px;
+}
+
+.bodyTruck {
+    position: absolute;
+    width: 900px;
+    height: 700px;
+    background-image: url(images/body.jpg);
+    top: 212px;
+    left: 5px;
+    border: 1px solid #a4a5a5;
+}
+
+.menu {
+    position: absolute;
+    width: 880px;
+    height: 50px;
+    background-color: #323232;
+    top: 10px;
+    left: 10px;
+    border: 1px solid #a4a5a5;
+}
+
+.leftBlock {
+    position: absolute;
+    width: 220px;
+    height: 535px;
+    left: 10px;
+    top: 85px;
+    border-right: 1px solid #ff6634;
+    /*            background-color: green;*/
+}
+
+.copyRight {
+    position: absolute;
+    width: 880px;
+    height: 50px;
+    background-color: #323232;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid #a4a5a5;
+}
+
+.rightBlock {
+    position: absolute;
+    width: 660px;
+    height: 535px;
+    top: 85px;
+    right: 10px;
+    /*            background-color: aqua;*/
+}
+
+.leftHeadMenu1 {
+    position: absolute;
+    width: 205px;
+    height: 45px;
+    right: 13px;
+    background-color: #323232;
+    text-align: center;
+
+
+}
+
+p.header {
+    font-family: "Arial";
+    font-size: 20px;
+    color: #ff6634;
+    line-height: 20%;
+
+}
+
+.leftMenu1 {
+    position: absolute;
+    width: 205px;
+    height: 200px;
+    top: 50px;
+    right: 13px;
+    background-color: #dddddd;
+}
+
+.leftHeadMenu2 {
+    position: absolute;
+    width: 205px;
+    height: 45px;
+    top: 270px;
+    right: 13px;
+    background-color: #323232;
+    text-align: center;
+
+}
+
+.leftMenu2 {
+    position: absolute;
+    width: 205px;
+    height: 200px;
+    top: 320px;
+    right: 13px;
+    background-color: #dddddd;
+}
+
+.rightTopBlock {
+    position: absolute;
+    width: 657px;
+    height: 270px;
+    right: 0px;
+    top: 5px;
+/*    background-color: blueviolet;*/
+}
+
+.rightBottomBlock1 {
+    position: absolute;
+    width: 328px;
+    height: 250px;
+    left: 3px;
+    bottom: 0px;
+    border-right: 1px solid #ff6634;
+/*    background-color: gray;*/
+}
+
+.rightBottomBlock2 {
+    position: absolute;
+    width: 328px;
+    height: 250px;
+    right: 0px;
+    bottom: 0px;
+/*    background-color: firebrick;*/
+}
