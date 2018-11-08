@@ -17,7 +17,7 @@
         #head {
             position: absolute;
             width: 100%;
-            height: 15vh;
+            height: 120px;
             background-color: #4a4f56;
             top: 0;
             left: 0;
@@ -26,16 +26,18 @@
 
         p#headText1 {
             font-family: sans-serif;
-            font-size: 50px;
-            margin-top: 40px;
+            font-size: 38px;
+            /*            margin-top: 40px;*/
             color: #eb7e7f;
+            display: inline-block;
+            vertical-align: middle;
 
         }
 
         p#headText2 {
             font-family: sans-serif;
-            font-size: 30px;
-            margin-top: -50px;
+            font-size: 25px;
+            margin-top: -35px;
             color: #eb7e7f;
 
         }
@@ -50,38 +52,30 @@
             /*            background-color: aliceblue;*/
         }
 
-        #line1 {
+        .line1 {
             position: relative;
             top: 0;
             left: 0;
             width: 100%;
             height: 10vh;
-            background-color: #88839e;
-            display: inline-block;
-            vertical-align: middle;
-
-        }
-
-        #line2 {
-            position: relative;
-            top: 0vh;
-            left: 0;
-            width: 100%;
-            height: 10vh;
-            background-color: #7b7693;
-            display: inline-block;
-            vertical-align: middle;
-
-
-        }
-
-        #textMenu1 {
             font-family: sans-serif;
             font-size: 30px;
             color: #ffffff;
-            padding-left: 10vw;
-            padding-top: 0.5vh;
+            line-height: 10vh;
+            background-color:#88839e; 
 
+        }
+         .line2 {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10vh;
+            font-family: sans-serif;
+            font-size: 30px;
+            color: #ffffff;
+            line-height: 10vh;
+             background-color: #7b7693;
 
         }
 
@@ -100,16 +94,16 @@
 
         a:visited {
             text-decoration: line-through;
-            text-decoration-color: #cc9;
+            text-decoration-color: black;
         }
 
-        #line1:hover {
+        .line1:hover {
             background-color: #625e77;
             border-bottom: 4px solid #ffffff;
             border-top: 4px solid #ffffff;
         }
 
-        #line2:hover {
+        .line2:hover {
             background-color: #625e77;
             border-bottom: 4px solid #ffffff;
             border-top: 4px solid #ffffff;
@@ -148,36 +142,23 @@
             </p>
         </div>
         <div id="menuBlock">
-            <div id="line1">
-                <p id="textMenu1">
-                    <a href="#">A lot of pickles </a><span class="textMenu2">(for the next lessons about CSS)</span>
-                </p>
-
+            <div class="line1">
+                <a href="#" style="padding-left: 5vw">A lot of pickles </a><span class="textMenu2">(for the next lessons about CSS)</span>
             </div>
-            <div id="line2">
-                <p id="textMenu1">
-                    10 apples <span class="textMenu2">(for more CSS manipulations)</span>
-                </p>
+            <div class="line2">
+                10 apples <span class="textMenu2">(for more CSS manipulations)</span>
             </div>
-            <div id="line1">
-                <p id="textMenu1">
-                    20 oranges <span class="textMenu2">(because they are awesome)</span>
-                </p>
+            <div class="line1">
+                20 oranges <span class="textMenu2">(because they are awesome)</span>
             </div>
-            <div id="line2">
-                <p id="textMenu1">
-                    13 plates <span class="textMenu2">(hm... they always disappear)</span>
-                </p>
+            <div class="line2">
+                13 plates <span class="textMenu2">(hm... they always disappear)</span>
             </div>
-            <div id="line1">
-                <p id="textMenu1">
-                    15 bentos
-                </p>
+            <div class="line1">
+                15 bentos
             </div>
-            <div id="line2">
-                <p id="textMenu1">
-                    1 bottle of Sake ^_^ <span class="textMenu2">(for my friends)</span>
-                </p>
+            <div class="line2">
+                1 bottle of Sake ^_^ <span class="textMenu2">(for my friends)</span>
             </div>
 
         </div>
