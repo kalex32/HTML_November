@@ -85,6 +85,15 @@
 
  }
 
+ a > small {
+     color: #bbc2d4;
+ }
+
+ a:visited > small {
+     color: #a3a0b5;
+ }
+
+
  .line1:hover {
      background-color: #625e77;
      border-bottom: 4px solid #ffffff;
