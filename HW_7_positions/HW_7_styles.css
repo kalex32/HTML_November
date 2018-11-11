@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 .Truck {
     position: relative;
     width: 912px;
@@ -22,10 +27,10 @@
 }
 
 .he1 {
-    font-family: "Arial";
+    font-family: Arial;
     color: aliceblue;
     font-size: 40px;
-    padding-top: 5px;
+    padding-top: 50px;
     padding-left: 560px;
 }
 
@@ -34,7 +39,7 @@ p.lower {
     color: aliceblue;
     font-size: 18px;
     padding-left: 580px;
-    margin-top: -30px;
+    padding-top: 10px;
 }
 
 .bodyTruck {
@@ -93,6 +98,7 @@ p.lower {
     right: 13px;
     background-color: #323232;
     text-align: center;
+    line-height: 45px;
 
 
 }
@@ -101,7 +107,6 @@ p.header {
     font-family: "Arial";
     font-size: 20px;
     color: #ff6634;
-    line-height: 20%;
 
 }
 
@@ -122,6 +127,7 @@ p.header {
     right: 13px;
     background-color: #323232;
     text-align: center;
+    line-height: 45px;
 
 }
 
