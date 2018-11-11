@@ -1,27 +1,36 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 div {
     position: relative;
-    width: auto;
+    width: 100%;
     height: 40px;
-    margin-top: 10px;
+/*    margin-top: 10px;*/
+/*
     margin-left: auto;
     margin-right: auto;
+*/
+    left: 25%;
     background-color: azure;
     line-height: 40px;
+    text-align: center;
 }
 
-ul {
-    display: block;
-    margin: 0;
+ul.menu {
+/*    display: block;*/
+    margin: 0 10vw;
     padding: 0;
     list-style: none;
+/*
+    margin-left: 15em;
+    margin-right: 5em;
+*/
 }
 
-ul:after {
+ul.menu:after {
     display: block;
     content: ' ';
     clear: both;
@@ -52,7 +61,7 @@ ul.menu > li > a:hover {
 ul.submenu{
     display: none;
     position: absolute;
-    width: 96px;
+    width: 105px;
     top: 37px;
     left: 0;
     background-color: skyblue;
