@@ -1,14 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
+    font-family: Arial;
 }
+
 .Truck {
     position: relative;
     width: 912px;
     height: 919px;
     top: auto;
-    /*            right: auto;*/
     left: auto;
     border: 1px solid;
     background-color: #dddddd;
@@ -27,7 +28,6 @@
 }
 
 .he1 {
-    font-family: Arial;
     color: aliceblue;
     font-size: 40px;
     padding-top: 50px;
@@ -35,7 +35,6 @@
 }
 
 p.lower {
-    font-family: Arial;
     color: aliceblue;
     font-size: 18px;
     padding-left: 580px;
@@ -60,6 +59,21 @@ p.lower {
     top: 10px;
     left: 10px;
     border: 1px solid #a4a5a5;
+    text-align: center;
+    line-height: 50px;
+}
+
+.menu-header li {
+    display: inline;
+
+}
+
+.menu-header a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #ff6634;
+    margin: 30px;
+
 }
 
 .leftBlock {
@@ -69,10 +83,9 @@ p.lower {
     left: 10px;
     top: 85px;
     border-right: 1px solid #ff6634;
-    /*            background-color: green;*/
 }
 
-.copyRight {
+.footerBlock {
     position: absolute;
     width: 880px;
     height: 50px;
@@ -80,6 +93,18 @@ p.lower {
     bottom: 10px;
     left: 10px;
     border: 1px solid #a4a5a5;
+    text-align: center;
+    line-height: 50px;
+}
+
+.copyRight {
+    color: white;
+}
+
+.design {
+    font-size: 10px;
+    color: white;
+    margin-top: -34px;
 }
 
 .rightBlock {
@@ -88,7 +113,6 @@ p.lower {
     height: 535px;
     top: 85px;
     right: 10px;
-    /*            background-color: aqua;*/
 }
 
 .leftHeadMenu1 {
@@ -104,7 +128,6 @@ p.lower {
 }
 
 p.header {
-    font-family: "Arial";
     font-size: 20px;
     color: #ff6634;
 
@@ -117,6 +140,18 @@ p.header {
     top: 50px;
     right: 13px;
     background-color: #dddddd;
+}
+
+.left-menu1 li {
+    list-style-type: none;
+    padding: 7px;
+}
+
+.left-menu1 a {
+    font-family: Arial;
+    color: black;
+    font-size: 14px;
+    padding: 30px;
 }
 
 .leftHeadMenu2 {
@@ -138,6 +173,13 @@ p.header {
     top: 320px;
     right: 13px;
     background-color: #dddddd;
+    padding: 10px;
+}
+
+.leftMenu2 p {
+    font-size: 14px;
+    padding: 10px;
+
 }
 
 .rightTopBlock {
@@ -146,7 +188,18 @@ p.header {
     height: 270px;
     right: 0px;
     top: 5px;
-/*    background-color: blueviolet;*/
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.rightBlock p {
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 2;
 }
 
 .rightBottomBlock1 {
@@ -156,7 +209,9 @@ p.header {
     left: 3px;
     bottom: 0px;
     border-right: 1px solid #ff6634;
-/*    background-color: gray;*/
+    padding-left: 20px;
+    padding-right: 5px;
+
 }
 
 .rightBottomBlock2 {
@@ -165,5 +220,7 @@ p.header {
     height: 250px;
     right: 0px;
     bottom: 0px;
-/*    background-color: firebrick;*/
+    padding-left: 20px;
+    padding-right: 5px;
+
 }
